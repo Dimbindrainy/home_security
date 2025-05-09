@@ -97,8 +97,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="LUpZ-s2y1i5r5ClLFdow-29" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-313" y="-244" width="180" height="120" as="geometry" />
+        <mxCell id="LUpZ-s2y1i5r5ClLFdow-30" value="A easy Security Home A&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;rchitecture Diagram&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-225" width="329" height="31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
