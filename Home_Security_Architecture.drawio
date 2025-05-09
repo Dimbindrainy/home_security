@@ -1,9 +1,105 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Page-1" id="tDTuWloHoOTrhcN3pzF7">
-    <mxGraphModel>
+    <mxGraphModel dx="2108" dy="1182" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LUpZ-s2y1i5r5ClLFdow-24" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="LUpZ-s2y1i5r5ClLFdow-2" target="LUpZ-s2y1i5r5ClLFdow-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="132" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUpZ-s2y1i5r5ClLFdow-25" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="LUpZ-s2y1i5r5ClLFdow-2" target="LUpZ-s2y1i5r5ClLFdow-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LUpZ-s2y1i5r5ClLFdow-2" value="Central Controller&lt;div&gt;ESP32/Raspberry Pi/Aduino&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LUpZ-s2y1i5r5ClLFdow-21" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="LUpZ-s2y1i5r5ClLFdow-3" target="LUpZ-s2y1i5r5ClLFdow-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LUpZ-s2y1i5r5ClLFdow-3" value="Local Display&lt;div&gt;(Screen Display)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="394" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LUpZ-s2y1i5r5ClLFdow-23" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LUpZ-s2y1i5r5ClLFdow-4" target="LUpZ-s2y1i5r5ClLFdow-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="209" y="169.33331298828125" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="213" y="39" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUpZ-s2y1i5r5ClLFdow-4" value="Local Storage&lt;div&gt;SQLite&lt;br&gt;&lt;div&gt;(Hard Drive)&lt;/div&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="307" y="-134" width="82" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="LUpZ-s2y1i5r5ClLFdow-15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="LUpZ-s2y1i5r5ClLFdow-5" target="LUpZ-s2y1i5r5ClLFdow-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="102" y="293" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUpZ-s2y1i5r5ClLFdow-5" value="PIR Sensor" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-216" y="253" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LUpZ-s2y1i5r5ClLFdow-6" value="Siren Module" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-216" y="33" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LUpZ-s2y1i5r5ClLFdow-16" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="LUpZ-s2y1i5r5ClLFdow-7" target="LUpZ-s2y1i5r5ClLFdow-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="289" y="61" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUpZ-s2y1i5r5ClLFdow-7" value="IP Camera" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="582" y="33" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LUpZ-s2y1i5r5ClLFdow-8" value="Cloud Storage&lt;div&gt;(Firebase)&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-17" y="-131.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LUpZ-s2y1i5r5ClLFdow-9" value="API" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.bendArrow;dy=9.83;dx=45;notch=0;arrowHead=58.33;rounded=0;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="161.37" y="293.63" width="316" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="LUpZ-s2y1i5r5ClLFdow-12" value="Web Interface/Mobile Application" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="288" y="518" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LUpZ-s2y1i5r5ClLFdow-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="LUpZ-s2y1i5r5ClLFdow-13" target="LUpZ-s2y1i5r5ClLFdow-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="494" y="127" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUpZ-s2y1i5r5ClLFdow-13" value="Door/Windows Mangentic read switch" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="582" y="253" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LUpZ-s2y1i5r5ClLFdow-22" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="LUpZ-s2y1i5r5ClLFdow-8" target="LUpZ-s2y1i5r5ClLFdow-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="184" y="32" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUpZ-s2y1i5r5ClLFdow-27" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.053;entryY=0.904;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="LUpZ-s2y1i5r5ClLFdow-2" target="LUpZ-s2y1i5r5ClLFdow-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="205" y="53" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUpZ-s2y1i5r5ClLFdow-28" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.8;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="LUpZ-s2y1i5r5ClLFdow-2" target="LUpZ-s2y1i5r5ClLFdow-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="67" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUpZ-s2y1i5r5ClLFdow-29" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-313" y="-244" width="180" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
